@@ -1,0 +1,9 @@
+let arrObj = [
+    { name: "Shantanu", age: 27 },
+    { name: "Vignesh", age: 24 },
+    { name: "Priya", age: 24 },
+    { name: "Goutham", age: 26 },
+  ];
+  let a=arrObj.map((list) =>{
+return list.name;
+  })
