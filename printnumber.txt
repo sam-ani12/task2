@@ -1,0 +1,14 @@
+const printNumbers = (from , to)=>{
+
+    let stop = setInterval(() => {
+        if(from<=to)
+        {
+            console.log(from);
+            from++;
+        }
+        else{
+            cleanInterval(stop);
+        }
+    },[1000]);
+}
+printNumbers(1,5);
